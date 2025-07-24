@@ -27,10 +27,15 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
+<style>
+  #hero{
+    overflow: hidden;
+  }
+</style>
 
 <body class="index-page">
 
-  <main class="main mt-0" style=" overflow-x: hidden;">
+  <main class="main" style=" overflow-x: hidden;">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
@@ -39,17 +44,17 @@
       <div class="container">
         <div class="row gy-4 justify-content-between">
           <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="App Image" style="height: 85%;">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="App Image" style="height: 70vh;">
           </div>
 
-          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
+          <div class="col-lg-8  d-flex flex-column justify-content-center" data-aos="fade-in">
             <h1><span>Achimota Centenary Raffle App</span></h1>
-            <p>We are team of talented designers making websites with Bootstrap</p>
-            <div class="d-flex">
-              <a href="#" class="btn-get-started me-3"><span>Android</span>Download</a>
-              <a href="#" class="btn-get-started me-3"><span>Apple</span>Download</a>              
-              <a href="#" class="btn-get-started me-3"><span>APK</span>Download</a>
-              <a href="https://www.youtube.com/watch?v=m3t0L9R5IuU" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <!-- <p>We are team of talented designers making websites with Bootstrap</p> -->
+            <div class="d-flex">             
+              <a href="#" class="btn btn-lg btn-outline-dark mb-1 text-white">
+                <i class="bi bi-android2 me-2"></i> Download for Android
+              </a>
+              <a href="https://www.youtube.com/watch?v=m3t0L9R5IuU" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle text-white"></i><span>Watch Video</span></a>
             </div>
           </div>
 
